@@ -1,0 +1,249 @@
+ /* font  */
+@import url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf); 
+@import url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf); 
+@import url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf); 
+@import url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf); 
+
+
+/* common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "plus-jakarta-sans", sans-serif;
+    
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#ffffff, #ebdcff);
+}
+.btn{
+    padding: 16px 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    /* margin-right: 20px; */
+    margin: 10px 20px 10px 0;
+
+}
+.btn p {
+    font-size: 16px;
+    font-weight: 700;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px ;
+    color: #F411CF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.title h2{
+    font-weight: 700;
+    font-size: 44px;
+    margin: 0 0 30px 0;
+}
+/* common css end*/
+/* banner css start */
+#banner_C{}
+#banner{
+    margin: 100px auto 120px auto;
+    padding: 20px 30px;
+    width: 87.5%;
+    background: url(../images/hero-bg.png) ;
+    background-color: #ffffff;
+    border: 2px solid #872BFF10;
+    border-radius: 40px ;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b_Content{
+    width: 50%;
+    padding: 0 75px;
+
+}
+.b_h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 100%;
+    padding:  0  0 36px 0;
+}
+.b_h1 span{
+    color: #F411CF;
+}
+.b_p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #A8A8A8;
+}
+.b_btn{ 
+    padding: 36px 0 0 0;
+
+}
+
+.btn1{
+    
+    background-color: #872BFF;
+    color: #FFFFFF;
+    box-shadow: #8C8C8C03;
+
+}
+.btn1:hover{
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border: 1px solid #872BFF;
+    transition: 0.5s;
+
+}
+.btn2{
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border: 1px solid #872BFF;
+}
+.btn2:hover{
+    background-color: #872BFF;
+    color: #FFFFFF;
+    box-shadow: #8C8C8C03;
+    transition: 0.5s;
+
+}
+.b_img{}
+.b_img img{
+    width: 600px;
+}
+/* Services css start */
+#Services_C{}
+#Services, #story, #country, #love{
+    margin: 0 auto 120px auto;
+    width: 87.5%;
+}
+
+.s_h1{}
+.s_h2{}
+#s_card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.s_c{
+    background-color: #F7F7F7;
+    padding: 60px;
+    text-align: center;
+    width: 350px;
+    border-radius: 30px;
+}
+.s_c img{
+    width: 70px;
+    margin-bottom: 30px;
+}
+.s_c h2{
+font-weight: 600;
+font-size: 28px;
+margin-bottom: 20px;
+
+}
+.s_c p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #A8A8A8;
+    margin-bottom: 20px;
+}
+/* story css start  */
+#story_c{}
+ 
+.s_content{
+      
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 24px;
+}
+.s_text {
+    padding: 0 30px;
+}
+.s_text h2,.s_text img, .s_text button{
+    margin-bottom: 20px;
+}
+/* country css start  */
+.country_C{}
+#country{}
+#c_C_con{
+    display: flex;
+    gap: 30px ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#c_C_con h2{
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 30px;
+}
+.btn3{
+    text-align: center;
+    margin-top: 20px;
+}
+/* love css start  */
+#l_content{
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #0E0E0ECC;
+    text-align: center;
+    opacity: 80%;
+}
+.c_active{
+    margin: 0 0 60px 0;
+
+}
+#l_content1{}
+#l_content h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#l_content p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.lp1{
+    padding-bottom: 60px;
+}
+.lp2{
+    padding-bottom: 20px;
+}
+.star{
+    position: relative;
+}
+.star_img{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
+#footer{
+    background-color: #FFFFFF;
+}
+.footer{
+    padding: 20px 30px;
+    background-color: #ffffff;
+    margin: 0 90px 0 90px;
+    width: 87.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f_content h1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #A8A8A8;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.f_icon{
+    padding-left: 750px;
+}
