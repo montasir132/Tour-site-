@@ -131,7 +131,7 @@ body{
     gap: 30px;
 }
 .s_c{
-    background-color: #F7F7F7;
+    background-color: #ffffff;
     padding: 60px;
     text-align: center;
     width: 350px;
@@ -164,10 +164,15 @@ margin-bottom: 20px;
     gap: 20px;
     border-radius: 24px;
 }
+.s_img{
+    margin: 30px 0;
+    padding-left:30px ;
+}
 .s_text {
     padding: 0 30px;
+    margin: 30px 0;
 }
-.s_text h2,.s_text img, .s_text button{
+.s_text h2,.s_text img, .s_textp, .s_text button{
     margin-bottom: 20px;
 }
 /* country css start  */
@@ -227,7 +232,7 @@ margin-bottom: 20px;
 }
 /* footer css start  */
 #footer_C{
-    background-color: #f6f6f8;
+    background-color: #ffffff;
 }
 .footer {
     margin: 0 auto 0 auto;
@@ -236,7 +241,7 @@ margin-bottom: 20px;
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  background-color: #f6f6f8;
+  background-color: #ffffff;
   
 }
 
