@@ -6,9 +6,10 @@
 
 
 /* common css start*/
-*{
+*{ 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "plus-jakarta-sans", sans-serif;
     
 }
@@ -16,6 +17,9 @@
 body{
     min-height: 100vh;
     background: linear-gradient(#ffffff, #ebdcff);
+}
+img{
+    width: 100%;
 }
 .btn{
     padding: 16px 32px;
@@ -59,6 +63,7 @@ body{
     border-radius: 40px ;
     
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
 }
@@ -90,7 +95,6 @@ body{
     
     background-color: #872BFF;
     color: #FFFFFF;
-    box-shadow: #8C8C8C03;
 
 }
 .btn1:hover{
@@ -134,7 +138,7 @@ body{
     background-color: #ffffff;
     padding: 60px;
     text-align: center;
-    width: 350px;
+    max-width: 350px;
     border-radius: 30px;
 }
 .s_c img{
@@ -165,12 +169,17 @@ margin-bottom: 20px;
     border-radius: 24px;
 }
 .s_img{
-    margin: 30px 0;
+    width: 40%;
+     margin: 30px 0;
     padding-left:30px ;
 }
 .s_text {
+    width: 60%;
     padding: 0 30px;
     margin: 30px 0;
+}
+.s_text img{
+    width: 100px;
 }
 .s_text h2,.s_text img, .s_textp, .s_text button{
     margin-bottom: 20px;
@@ -226,6 +235,7 @@ margin-bottom: 20px;
     position: relative;
 }
 .star_img{
+    width: auto;
     position: absolute;
     bottom: 50px;
     right: 0;
